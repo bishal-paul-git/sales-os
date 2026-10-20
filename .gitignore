@@ -1,0 +1,9 @@
+# Never commit operational data or credentials
+.env
+.env.*
+!.env.example
+**/private/**
+**/exports/**
+**/runtime/**
+__pycache__/
+*.pyc
