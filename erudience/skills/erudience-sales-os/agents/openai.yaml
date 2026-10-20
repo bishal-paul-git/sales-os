@@ -1,4 +1,0 @@
-interface:
-  display_name: "Erudience Sales OS"
-  short_description: "Run Erudience partner research and sales workflows"
-  default_prompt: "Use $erudience-sales-os to review the sales pipeline and prepare the next approved action."

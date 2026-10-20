@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "project": "Erudience",
+  "owner": "Bishal Paul",
+  "mode": "DRAFT_ONLY",
+  "repository": {
+    "name": "bishal-paul-git/sales-os",
+    "folder": "businesses/erudience",
+    "public_safe_only": true
+  },
+  "pilot": {
+    "country": "Australia",
+    "segment": "Telecom, VoIP/PBX and MSP channel partners",
+    "batch_size": 5
+  },
+  "research": {
+    "public_research_allowed": true,
+    "paid_run_cap": 0,
+    "currency": null
+  },
+  "outreach": {
+    "enabled": false,
+    "sender_account": null,
+    "allowed_regions": [],
+    "daily_send_cap": 0,
+    "approval_required": true,
+    "suppression_check_required": true
+  },
+  "crm": {
+    "provider": null,
+    "private_location": null,
+    "write_enabled": false
+  },
+  "schedule": {
+    "enabled": false,
+    "owner_platform": null,
+    "timezone": null
+  },
+  "commercial": {
+    "approved_rate_card": null,
+    "approved_commission_terms": null,
+    "approved_proof_ids": []
+  },
+  "business_id": "erudience"
+}

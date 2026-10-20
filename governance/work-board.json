@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "protocol": "advisory claims; branches and expected SHAs provide write isolation",
+  "work_items": [
+    {
+      "id": "STRUCTURE-002",
+      "scope": [
+        "core",
+        "businesses",
+        "governance",
+        "scripts",
+        "tests"
+      ],
+      "owner": "this ChatGPT session",
+      "branch": "codex/separate-core-business-email",
+      "base_commit": "c612428960bf62ce55502f5c3bff07192d2e478b",
+      "status": "prepared_for_review",
+      "goal": "Separate reusable Sales OS from business identity and email campaigns; preserve existing work"
+    },
+    {
+      "id": "ERI-CONTENT-002",
+      "scope": [
+        "businesses/erudience/knowledge",
+        "businesses/erudience/offers",
+        "businesses/erudience/campaigns"
+      ],
+      "owner": null,
+      "status": "available_after_structure_merge",
+      "goal": "Refine audience, offer and campaign copy using the canonical shared workflows"
+    },
+    {
+      "id": "EMAIL-CONNECT-001",
+      "scope": [
+        "core/integrations"
+      ],
+      "owner": null,
+      "status": "blocked_on_owner_accounts",
+      "goal": "Connect private CRM and sender, verify read/draft/send; never commit credentials"
+    }
+  ]
+}

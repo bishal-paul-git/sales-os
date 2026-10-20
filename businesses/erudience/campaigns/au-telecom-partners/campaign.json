@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "campaign_id": "CAMPAIGN-AU-TELECOM-2026",
+  "business_id": "erudience",
+  "type_id": "partner-outreach",
+  "name": "Australia telecom partner pilot",
+  "status": "validation",
+  "audience": {
+    "countries": [
+      "Australia"
+    ],
+    "industries": [
+      "Telecom",
+      "VoIP/PBX",
+      "Managed IT"
+    ],
+    "company_types": [
+      "Telecom consultant",
+      "VoIP provider",
+      "MSP",
+      "Channel partner"
+    ],
+    "decision_roles": [
+      "Founder",
+      "Managing director",
+      "Head of partnerships"
+    ],
+    "relationship": "cold-business",
+    "inclusion": [
+      "Relevant customer base and complementary service"
+    ],
+    "exclusion": [
+      "Suppressed contacts",
+      "Wrong business identity",
+      "Unapproved recipient basis",
+      "Direct competing AI implementation without approved exception"
+    ],
+    "eligibility_evidence": [
+      "core/policies/email-eligibility.md",
+      "Business-scoped private permission/contact evidence"
+    ]
+  },
+  "offer_ref": "businesses/erudience/offers/catalog.json#voice-automation-partner-pilot",
+  "use_case_ids": [
+    "ai-reception",
+    "lead-follow-up",
+    "appointment-capture"
+  ],
+  "core_workflow": "core/workflows/email-marketing.md",
+  "business_workflow": "businesses/erudience/workflows/email-marketing.md",
+  "agent_roles": [
+    "sales-manager",
+    "contact-qualifier",
+    "outreach-writer",
+    "pipeline-manager",
+    "partner-researcher",
+    "deal-advisor"
+  ],
+  "sender_account_ref": null,
+  "private_audience_ref": null,
+  "sequence": {
+    "timezone": null,
+    "cadence_approved": false,
+    "steps": [
+      {
+        "id": "email-1",
+        "purpose": "Relevant opening or promised value",
+        "delay_business_days": 0,
+        "trigger": "eligible_and_approved"
+      },
+      {
+        "id": "email-2",
+        "purpose": "Add useful context or answer an agreed question",
+        "delay_business_days": 4,
+        "trigger": "no_reply_and_still_eligible"
+      },
+      {
+        "id": "email-3",
+        "purpose": "Final proposed follow-up; no pressure",
+        "delay_business_days": 7,
+        "trigger": "no_reply_and_still_eligible"
+      }
+    ],
+    "stop_on": [
+      "human_reply",
+      "unsubscribe",
+      "complaint",
+      "hard_bounce",
+      "suppression"
+    ]
+  },
+  "metrics": {
+    "primary": "qualified partner conversations",
+    "unit": "unique eligible recipient",
+    "denominator": "delivered unique recipients",
+    "observation_window_days": null
+  },
+  "activation": {
+    "enabled": false,
+    "approval_required": true,
+    "daily_send_cap": 0
+  },
+  "blockers": [
+    "Private audience unresolved",
+    "Sender unconfirmed",
+    "Offer/proof review pending",
+    "Campaign eligibility and approval not completed"
+  ],
+  "strategy_path": "businesses/erudience/campaigns/au-telecom-partners/strategy.md"
+}

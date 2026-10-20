@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "campaign_id": "ERI-NEWSLETTER-001",
+  "business_id": "erudience",
+  "type_id": "newsletter",
+  "name": "Practical automation newsletter",
+  "status": "proposed",
+  "audience": {
+    "countries": [],
+    "industries": [
+      "Business operations"
+    ],
+    "company_types": [
+      "Opt-in subscriber"
+    ],
+    "decision_roles": [
+      "Business owner",
+      "Operations lead"
+    ],
+    "relationship": "subscriber",
+    "inclusion": [
+      "Evidence of the specified relationship with Erudience"
+    ],
+    "exclusion": [
+      "Suppressed contacts",
+      "Wrong business identity",
+      "Unapproved recipient basis",
+      "No subscription, enquiry or recontact basis"
+    ],
+    "eligibility_evidence": [
+      "core/policies/email-eligibility.md",
+      "Business-scoped private permission/contact evidence"
+    ]
+  },
+  "offer_ref": "businesses/erudience/offers/catalog.json#automation-resource-series",
+  "use_case_ids": [
+    "lead-follow-up",
+    "support-triage"
+  ],
+  "core_workflow": "core/workflows/email-marketing.md",
+  "business_workflow": "businesses/erudience/workflows/email-marketing.md",
+  "agent_roles": [
+    "sales-manager",
+    "contact-qualifier",
+    "outreach-writer",
+    "pipeline-manager"
+  ],
+  "sender_account_ref": null,
+  "private_audience_ref": null,
+  "sequence": {
+    "timezone": null,
+    "cadence_approved": false,
+    "steps": [
+      {
+        "id": "email-1",
+        "purpose": "Relevant opening or promised value",
+        "delay_business_days": 0,
+        "trigger": "eligible_and_approved"
+      }
+    ],
+    "stop_on": [
+      "human_reply",
+      "unsubscribe",
+      "complaint",
+      "hard_bounce",
+      "suppression"
+    ]
+  },
+  "metrics": {
+    "primary": "relevant human replies or agreed next actions",
+    "unit": "unique eligible recipient",
+    "denominator": "delivered unique recipients",
+    "observation_window_days": null
+  },
+  "activation": {
+    "enabled": false,
+    "approval_required": true,
+    "daily_send_cap": 0
+  },
+  "blockers": [
+    "Private audience unresolved",
+    "Sender unconfirmed",
+    "Offer/proof review pending",
+    "Campaign eligibility and approval not completed"
+  ],
+  "strategy_path": "businesses/erudience/campaigns/automation-newsletter/strategy.md"
+}

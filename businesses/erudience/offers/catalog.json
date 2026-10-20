@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "business_id": "erudience",
+  "offers": [
+    {
+      "id": "voice-automation-partner-pilot",
+      "name": "Voice and connected automation partner pilot",
+      "status": "hypothesis",
+      "use_case_ids": [
+        "ai-reception",
+        "lead-follow-up",
+        "appointment-capture"
+      ],
+      "pricing_approved": false,
+      "terms_approved": false,
+      "proof_ids": []
+    },
+    {
+      "id": "automation-resource-series",
+      "name": "Practical automation resource series",
+      "status": "hypothesis",
+      "use_case_ids": [
+        "lead-follow-up",
+        "support-triage"
+      ],
+      "pricing_approved": false,
+      "terms_approved": false,
+      "proof_ids": []
+    }
+  ]
+}

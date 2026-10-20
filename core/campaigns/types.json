@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "types": [
+    {
+      "id": "partner-outreach",
+      "name": "Partner acquisition",
+      "audience_class": "cold-business",
+      "purpose": "Evaluate referral, co-sell, reseller or white-label fit",
+      "primary_measure": "relevant partner conversations",
+      "automatic_activation": false
+    },
+    {
+      "id": "direct-prospecting",
+      "name": "Direct business acquisition",
+      "audience_class": "cold-business",
+      "purpose": "Explore one verified business problem with an end buyer",
+      "primary_measure": "qualified opportunities",
+      "automatic_activation": false
+    },
+    {
+      "id": "newsletter",
+      "name": "Opt-in newsletter",
+      "audience_class": "subscriber",
+      "purpose": "Deliver promised useful resources and updates",
+      "primary_measure": "relevant clicks and human replies",
+      "automatic_activation": false
+    },
+    {
+      "id": "lead-nurture",
+      "name": "Inbound lead nurture",
+      "audience_class": "opt-in-lead",
+      "purpose": "Help an interested lead assess a relevant use case",
+      "primary_measure": "qualified enquiries",
+      "automatic_activation": false
+    },
+    {
+      "id": "reactivation",
+      "name": "Relationship reactivation",
+      "audience_class": "previous-relationship",
+      "purpose": "Reopen a permitted prior conversation",
+      "primary_measure": "requalified conversations",
+      "automatic_activation": false
+    },
+    {
+      "id": "demo-follow-up",
+      "name": "Demo or enquiry follow-up",
+      "audience_class": "enquiry",
+      "purpose": "Answer questions and agree the next step",
+      "primary_measure": "next steps accepted",
+      "automatic_activation": false
+    },
+    {
+      "id": "customer-expansion",
+      "name": "Customer expansion",
+      "audience_class": "customer",
+      "purpose": "Offer a relevant additional workflow to existing customers",
+      "primary_measure": "accepted expansion opportunities",
+      "automatic_activation": false
+    }
+  ]
+}
