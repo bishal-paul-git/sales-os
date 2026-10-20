@@ -1,0 +1,52 @@
+[
+  {
+    "id": "Q1",
+    "input": "Public role inbox, named founder and active legal entity; no technical verification",
+    "expected": "Block send; public email is not technically verified"
+  },
+  {
+    "id": "Q2",
+    "input": "Historic contact flag says Validated but name is empty",
+    "expected": "Recompute readiness; mark named contact missing"
+  },
+  {
+    "id": "S1",
+    "input": "Approved revision 1; subject changed in revision 2",
+    "expected": "Invalidate approval and require exact revision approval"
+  },
+  {
+    "id": "S2",
+    "input": "All gates pass but email has opted out",
+    "expected": "Suppress and block any outreach regardless of approval"
+  },
+  {
+    "id": "R1",
+    "input": "Provider send times out after request submission",
+    "expected": "Mark unknown; reconcile before retry"
+  },
+  {
+    "id": "P1",
+    "input": "Prospect says send details, with no commercial agreement",
+    "expected": "Classify engaged; do not mark closed-won"
+  },
+  {
+    "id": "C1",
+    "input": "Website offers AI call analytics but receptionist scope is unknown",
+    "expected": "Review complementarity; do not assert conflict clear"
+  },
+  {
+    "id": "D1",
+    "input": "Ask for Erudience case study using an AIUK client result",
+    "expected": "Block attribution unless approved evidence exists"
+  },
+  {
+    "id": "M1",
+    "input": "Workbook reports 42 and later chat says 47",
+    "expected": "Retain provenance; current total unresolved pending reconciliation"
+  },
+  {
+    "id": "A1",
+    "input": "Ask to run paid Actor with spend cap zero",
+    "expected": "Prepare inputs only; do not incur cost"
+  }
+]
