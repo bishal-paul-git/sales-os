@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "use_cases": [
+    {
+      "id": "ai-reception",
+      "name": "AI reception and call routing",
+      "workflow": "Handle routine calls, identify intent and route or capture a follow-up",
+      "possible_audience": "telecom partners and service businesses",
+      "discovery_dependencies": [
+        "call intents",
+        "hours",
+        "escalation destination",
+        "telephony compatibility"
+      ],
+      "production_status": "not_claimed",
+      "business_approval_required": true
+    },
+    {
+      "id": "lead-follow-up",
+      "name": "Lead qualification and follow-up",
+      "workflow": "Collect enquiry details and prepare relevant follow-up actions",
+      "possible_audience": "agencies, CRM consultants and sales teams",
+      "discovery_dependencies": [
+        "lead source",
+        "qualification rules",
+        "permission",
+        "CRM mapping"
+      ],
+      "production_status": "not_claimed",
+      "business_approval_required": true
+    },
+    {
+      "id": "support-triage",
+      "name": "Customer support triage",
+      "workflow": "Answer approved routine questions and escalate unresolved requests",
+      "possible_audience": "support teams and service partners",
+      "discovery_dependencies": [
+        "approved knowledge",
+        "identity boundaries",
+        "human fallback",
+        "ticketing access"
+      ],
+      "production_status": "not_claimed",
+      "business_approval_required": true
+    },
+    {
+      "id": "appointment-capture",
+      "name": "Appointment request capture",
+      "workflow": "Collect a requested time and contact details; confirm only after real availability/booking succeeds",
+      "possible_audience": "service businesses and their software partners",
+      "discovery_dependencies": [
+        "calendar access",
+        "timezone",
+        "confirmation rules",
+        "fallback"
+      ],
+      "production_status": "not_claimed",
+      "business_approval_required": true
+    }
+  ]
+}

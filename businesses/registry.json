@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "businesses": [
+    {
+      "id": "erudience",
+      "path": "businesses/erudience",
+      "status": "draft_only"
+    }
+  ]
+}

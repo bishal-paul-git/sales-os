@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "business_id": "erudience",
+  "campaigns": [
+    {
+      "campaign_id": "CAMPAIGN-AU-TELECOM-2026",
+      "type_id": "partner-outreach",
+      "path": "businesses/erudience/campaigns/au-telecom-partners",
+      "status": "validation"
+    },
+    {
+      "campaign_id": "ERI-NEWSLETTER-001",
+      "type_id": "newsletter",
+      "path": "businesses/erudience/campaigns/automation-newsletter",
+      "status": "proposed"
+    },
+    {
+      "campaign_id": "ERI-NURTURE-001",
+      "type_id": "lead-nurture",
+      "path": "businesses/erudience/campaigns/inbound-demo-nurture",
+      "status": "proposed"
+    },
+    {
+      "campaign_id": "ERI-REACTIVATION-001",
+      "type_id": "reactivation",
+      "path": "businesses/erudience/campaigns/partner-reactivation",
+      "status": "proposed"
+    }
+  ]
+}
