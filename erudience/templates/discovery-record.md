@@ -1,0 +1,25 @@
+# Discovery record
+
+- Opportunity ID:
+- Company:
+- Attendees and roles:
+- Date and source timezone:
+- Partner's customer audience:
+- Repeat customer problem:
+- Current workflow:
+- Current telephony, CRM and automation systems:
+- Monthly volume, if supplied:
+- Current cost, if supplied:
+- Integration access and constraints:
+- Partner model being considered:
+- Account and customer ownership:
+- Demand evidence:
+- Decision process and stakeholders:
+- Budget range, if supplied:
+- Timeline and urgency:
+- Success criteria:
+- Risks and unknowns:
+- Agreed next action:
+- Owner:
+- Due date:
+- Evidence or source IDs:
