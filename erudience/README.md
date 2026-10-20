@@ -14,6 +14,16 @@ Owner: Bishal Paul. Scope: Erudience's own partner-led sales. Version: 1.0, 20 O
 
 Six role instructions, one reusable routing skill, partner qualification and outreach procedures, discovery and proposal frameworks, pipeline rules, approval and suppression controls, integration contracts, operational memory and synthetic evaluation cases.
 
+## Working assets
+
+- [Australia telecom pilot brief](campaigns/australia-telecom.md)
+- [Personalisation brief](templates/personalisation-brief.md)
+- [Account brief](templates/account-brief.md)
+- [Email sequence structure](templates/email-sequence.md)
+- [Discovery record](templates/discovery-record.md)
+- [Proposal checklist](templates/proposal-checklist.md)
+- [Job card](templates/job-card.yaml)
+
 ## What is active
 
 The system can guide an assistant working in an active session. This is an operating package, not a deployed CRM, autonomous agent service or email sender. No recurring job is enabled by this package. Research data is not imported into this public repository.
