@@ -14,8 +14,9 @@
       "owner": "this ChatGPT session",
       "branch": "codex/separate-core-business-email",
       "base_commit": "c612428960bf62ce55502f5c3bff07192d2e478b",
-      "status": "prepared_for_review",
-      "goal": "Separate reusable Sales OS from business identity and email campaigns; preserve existing work"
+      "status": "merged",
+      "goal": "Separate reusable Sales OS from business identity and email campaigns; preserve existing work",
+      "merge_commit": "dee241fbb7bc585ddb42e549be35512e64afecc5"
     },
     {
       "id": "ERI-CONTENT-002",
@@ -25,7 +26,7 @@
         "businesses/erudience/campaigns"
       ],
       "owner": null,
-      "status": "available_after_structure_merge",
+      "status": "available",
       "goal": "Refine audience, offer and campaign copy using the canonical shared workflows"
     },
     {
