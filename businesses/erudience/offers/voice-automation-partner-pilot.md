@@ -69,4 +69,3 @@ Hold the opportunity when the company mainly sells a competing AI implementation
 ## Discovery CTA
 
 Ask whether the partner is seeing relevant customer demand and who owns this area. If there is fit, propose a short discovery conversation around one customer workflow. Do not lead with a broad demo or an unapproved commercial incentive.
-
