@@ -8,7 +8,7 @@ The initial acquisition motion is partner-led: work with businesses that already
 
 ## Pilot market
 
-Australia telecom consultants, VoIP/PBX providers, MSPs and channel partners. Expand later to agencies, CRM implementers, ecommerce consultants, answering services and niche advisers. US and other English-speaking markets are expansion candidates, not an active approved sending lane. UK is outside the initial pilot unless the owner changes it.
+Australia telecom consultants, VoIP/PBX and UCaaS providers, phone-system specialists, MSPs and channel partners. Prioritise firms that already advise or support business customers and can identify a concrete call-handling or follow-up need. Expand later to agencies, CRM implementers, ecommerce consultants, answering services and niche advisers. US and other English-speaking markets are expansion candidates, not an active approved sending lane. UK is outside the initial pilot unless the owner changes it.
 
 Ideal buyer: owner, founder, managing director, head of partnerships or commercial lead. A job title alone is not proof of buying authority. Qualify ownership of the relevant partner decision.
 
@@ -26,5 +26,9 @@ Do not quote fees, commission, recurring revenue or delivery dates until approve
 ## Positioning
 
 Lead with a concrete customer problem and a specific complementary service: missed calls, repetitive enquiries, manual lead handling or disconnected follow-up. Explain how it fits the partner's existing service. Do not promise an outcome without evidence.
+
+For the current validation campaign, the working proposition is a jointly scoped AI call-handling and connected follow-up pilot beside the partner's existing telecom or managed service. Start with one internal or end-customer workflow, explicit boundaries, human fallback and acceptance criteria. The canonical detail is in `offers/voice-automation-partner-pilot.md`.
+
+Erudience supplies specialist discovery and implementation capability. The partner brings the customer relationship, telecom context and account expectations. The final division of sales, delivery, support, data responsibility and branding is a discovery decision, not a campaign claim.
 
 Use short, clear English. Avoid hype, fake familiarity, emojis, em dashes and generic compliments. Prefer one relevant observation, one useful offer and one small next step. Validate the current website, demo, booking link and business facts before sending.

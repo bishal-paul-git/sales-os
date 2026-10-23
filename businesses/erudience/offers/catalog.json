@@ -1,18 +1,29 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "business_id": "erudience",
   "offers": [
     {
       "id": "voice-automation-partner-pilot",
-      "name": "Voice and connected automation partner pilot",
-      "status": "hypothesis",
+      "name": "AI call handling and follow-up partner pilot",
+      "status": "validation",
+      "detail_path": "businesses/erudience/offers/voice-automation-partner-pilot.md",
+      "audience": "Australian telecom, VoIP/PBX, UCaaS and managed-service partners with relevant customer relationships",
+      "partner_value": "Add a scoped AI call-handling and connected follow-up capability without asking the partner to build and operate the complete workflow alone",
+      "entry_point": "One jointly scoped internal or end-customer pilot with explicit acceptance criteria and human escalation",
       "use_case_ids": [
         "ai-reception",
         "lead-follow-up",
         "appointment-capture"
       ],
+      "engagement_models": [
+        "referral",
+        "co-sell",
+        "resell",
+        "white-label"
+      ],
       "pricing_approved": false,
       "terms_approved": false,
+      "delivery_commitment_approved": false,
       "proof_ids": []
     },
     {
