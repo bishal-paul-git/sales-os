@@ -53,8 +53,11 @@
       "owner": "Codex work session 2026-10-23",
       "branch": "codex/erudience-connect-email-pilot-20261023",
       "base_commit": "0afce2dd210c3773f3058a9109320a847ecd8de3",
-      "status": "in_progress",
-      "goal": "Bind the private audience destination, RocketReach verification and selected Hostinger sender while keeping campaign execution disabled"
+      "status": "blocked_on_audience_source",
+      "goal": "Bind the private audience destination, RocketReach verification and selected Hostinger sender while keeping campaign execution disabled",
+      "merge_commit": "fd6bf0ca1fa04b442ca1ee5259682573ab42000e",
+      "validation": "repository validator and 8 unit tests passed on PR head 78f8daad58684fac6ad61cd8df6222a55cbf8bd8",
+      "blocker": "Latest 42/47-record workbook must be uploaded or shared before import, selection and verification"
     }
   ]
 }
