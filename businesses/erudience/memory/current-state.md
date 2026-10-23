@@ -23,3 +23,11 @@ Reconcile the private lead workbook versions and import into the chosen private 
 ## Architecture upgrade, 20 October 2026
 
 Reusable agents, procedures and templates now live under core/. Erudience knowledge, offer hypotheses, specialised agent overlays and campaign instances live under businesses/erudience/. The other chat's campaign brief and six templates were preserved. Four email campaign plans are registered; only the historical Australia telecom plan is in validation, and none is enabled. Provider connections, private audiences and lead-count reconciliation remain unresolved.
+
+## Connection discovery, 23 October 2026
+
+- The owner selected `bishal@erudience.com` as the founder-led campaign sender. Its Hostinger mailbox connection passed account discovery; no send, inbox or deliverability test has run.
+- The owner selected the registered Erudience RocketReach account and authorised at most five email-verification credits for the pilot. Ten credits were available when checked; zero were spent during setup.
+- An owned Google Sheet named `Erudience Partner Leads` was selected as the private staging destination. Its 28-column header schema is present, but it contains zero audience records.
+- Searches of the connected Drive and persistent file store did not locate the latest 42/47-record workbook. The owner chose to supply or share that workbook rather than rebuild the audience from scratch.
+- Campaign sending, CRM writes, verification runs and scheduling remain disabled. The next action is to import and reconcile the supplied workbook, select five records, then use the approved verification cap.
