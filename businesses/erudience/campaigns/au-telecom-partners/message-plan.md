@@ -85,4 +85,3 @@ Apply the approved opt-out wording and headers for the selected sender and campa
 | Not relevant | Close or requalify the account; do not argue |
 | Unsubscribe or complaint | Suppress immediately across the applicable Erudience scope |
 | Technical or commercial question | Answer only from approved facts; escalate unapproved pricing, terms, integration or proof |
-
