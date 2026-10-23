@@ -41,6 +41,20 @@
       "owner": null,
       "status": "blocked_on_owner_accounts",
       "goal": "Connect private CRM and sender, verify read/draft/send; never commit credentials"
+    },
+    {
+      "id": "ERI-CONNECT-001",
+      "scope": [
+        "businesses/erudience/config",
+        "businesses/erudience/integrations",
+        "businesses/erudience/campaigns/au-telecom-partners",
+        "businesses/erudience/memory"
+      ],
+      "owner": "Codex work session 2026-10-23",
+      "branch": "codex/erudience-connect-email-pilot-20261023",
+      "base_commit": "0afce2dd210c3773f3058a9109320a847ecd8de3",
+      "status": "in_progress",
+      "goal": "Bind the private audience destination, RocketReach verification and selected Hostinger sender while keeping campaign execution disabled"
     }
   ]
 }
