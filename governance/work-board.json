@@ -28,8 +28,10 @@
       "owner": "Codex work session 2026-10-23",
       "branch": "codex/erudience-partner-offer-au-telecom-20261023",
       "base_commit": "2f5b183028be353c9bdfc1b750c87508a5b937bd",
-      "status": "in_progress",
-      "goal": "Refine the Erudience partner offer and Australia telecom campaign using canonical shared workflows"
+      "status": "merged",
+      "goal": "Refine the Erudience partner offer and Australia telecom campaign using canonical shared workflows",
+      "merge_commit": "661927018c7140b7788e3dd655635bf1c7346c78",
+      "validation": "repository validator and 8 unit tests passed on PR head 95394f352984ab9b3e685b845cfb65e82a743949"
     },
     {
       "id": "EMAIL-CONNECT-001",
