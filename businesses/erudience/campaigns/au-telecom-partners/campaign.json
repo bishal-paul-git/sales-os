@@ -5,6 +5,7 @@
   "type_id": "partner-outreach",
   "name": "Australia telecom partner pilot",
   "status": "validation",
+  "hypothesis": "Selected Australian telecom and managed-service partners will consider a specialist Erudience pilot when the message connects one customer call-handling problem to their existing service and does not force a partner model before discovery.",
   "audience": {
     "countries": [
       "Australia"
@@ -12,28 +13,37 @@
     "industries": [
       "Telecom",
       "VoIP/PBX",
+      "Unified communications",
       "Managed IT"
     ],
     "company_types": [
       "Telecom consultant",
       "VoIP provider",
+      "UCaaS provider",
+      "Phone-system specialist",
       "MSP",
       "Channel partner"
     ],
     "decision_roles": [
       "Founder",
       "Managing director",
-      "Head of partnerships"
+      "Head of partnerships",
+      "Commercial lead"
     ],
     "relationship": "cold-business",
     "inclusion": [
-      "Relevant customer base and complementary service"
+      "Current Australian business-customer relationships",
+      "Complementary telecom, communications or managed-service offer",
+      "Evidence of one plausible registered use case",
+      "Named owner of the relevant commercial or partnership decision"
     ],
     "exclusion": [
       "Suppressed contacts",
       "Wrong business identity",
       "Unapproved recipient basis",
-      "Direct competing AI implementation without approved exception"
+      "Direct competing AI implementation without approved exception",
+      "No current evidence of relevant services or Australian customer fit",
+      "Generic list record with no named relevant decision owner"
     ],
     "eligibility_evidence": [
       "core/policies/email-eligibility.md",
@@ -41,6 +51,7 @@
     ]
   },
   "offer_ref": "businesses/erudience/offers/catalog.json#voice-automation-partner-pilot",
+  "offer_detail_path": "businesses/erudience/offers/voice-automation-partner-pilot.md",
   "use_case_ids": [
     "ai-reception",
     "lead-follow-up",
@@ -58,6 +69,21 @@
   ],
   "sender_account_ref": null,
   "private_audience_ref": null,
+  "pilot_gate": {
+    "source": "existing private candidates before new discovery",
+    "batch_size": 5,
+    "required_record_checks": [
+      "current company and Australian service evidence",
+      "active legal entity match",
+      "partner fit and direct-conflict review",
+      "named relevant decision owner",
+      "business contact basis and suppression",
+      "technical email verdict no older than 30 days",
+      "source-backed personalisation",
+      "exact draft and sender approval"
+    ]
+  },
+  "message_plan_path": "businesses/erudience/campaigns/au-telecom-partners/message-plan.md",
   "sequence": {
     "timezone": null,
     "cadence_approved": false,
@@ -91,6 +117,12 @@
   },
   "metrics": {
     "primary": "qualified partner conversations",
+    "secondary": [
+      "positive or referral replies",
+      "accepted discovery next steps",
+      "validated offer objections",
+      "suppression, complaint and hard-bounce rate"
+    ],
     "unit": "unique eligible recipient",
     "denominator": "delivered unique recipients",
     "observation_window_days": null
@@ -101,10 +133,10 @@
     "daily_send_cap": 0
   },
   "blockers": [
-    "Private audience unresolved",
-    "Sender unconfirmed",
-    "Offer/proof review pending",
-    "Campaign eligibility and approval not completed"
+    "Private five-record audience not reconciled or connected",
+    "Verification provider and verdict mapping not tested",
+    "Exact Erudience sender and reply handling not tested",
+    "Offer claims, cadence, recipient basis and exact drafts not owner-approved"
   ],
   "strategy_path": "businesses/erudience/campaigns/au-telecom-partners/strategy.md"
 }
